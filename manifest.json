@@ -1,0 +1,13 @@
+{
+  "name": "Youtube Feed Hider",
+  "version": "0.8",
+  "description": "Hides recommended videos on Youtube front page",
+   "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["styles.css"]
+    }
+  ],
+  "manifest_version": 2
+}

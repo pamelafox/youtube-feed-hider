@@ -1,0 +1,15 @@
+/** Youtube CSS overrides **/
+
+/** Displayed while loading, grey boxes **/
+#home-page-skeleton {
+  display: none !important;
+}
+
+/**
+ Must use visibility instead of display as otherwise
+ it thinks that the user has scrolled and tries to load
+ additional feed items repeatedly.
+ **/
+ytd-browse[role="main"][page-subtype="home"] #contents {
+  visibility: hidden !important;
+}

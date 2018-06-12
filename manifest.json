@@ -1,7 +1,7 @@
 {
-  "name": "Youtube Feed Hider",
-  "version": "0.8",
-  "description": "Hides recommended videos on Youtube front page",
+  "name": "Youtube UnHooked",
+  "version": "0.9",
+  "description": "Hides the parts of Youtube that are unnecessary and addictive: front page recommendations, related videos, and comments. You can still search for and play any videos!",
    "content_scripts": [
     {
       "run_at": "document_start",

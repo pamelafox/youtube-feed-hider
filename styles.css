@@ -1,5 +1,7 @@
 /** Youtube CSS overrides **/
 
+/** FRONT PAGE FEED **/
+
 /** Displayed while loading, grey boxes **/
 #home-page-skeleton {
   display: none !important;
@@ -12,4 +14,26 @@
  **/
 ytd-browse[role="main"][page-subtype="home"] #contents {
   visibility: hidden !important;
+}
+
+/** RELATED VIDEOS (SIDEBAR) **/
+
+/** Displayed while loading, grey boxes **/
+#related-skeleton, .watch-skeleton {
+  display: none !important;
+}
+
+ytd-watch-next-secondary-results-renderer {
+  visibility: hidden !important;
+}
+
+/** COMMENTS **/
+
+ytd-comments {
+  visibility: hidden !important;
+}
+
+/** RELATED VIDEOS (END OF VIDEO SCREEN) **/
+.ytp-videowall-still, .ytp-endscreen-previous, .ytp-endscreen-next {
+  display: none !important;
 }

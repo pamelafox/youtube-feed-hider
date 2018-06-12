@@ -1,7 +1,7 @@
 {
   "name": "Youtube UnHooked",
   "version": "0.9",
-  "description": "Hides the parts of Youtube that are unnecessary and addictive: front page recommendations, related videos, and comments. You can still search for and play any videos!",
+  "description": "Hides parts of Youtube that are unneeded/addictive: recommendations, related videos, comments.",
    "content_scripts": [
     {
       "run_at": "document_start",

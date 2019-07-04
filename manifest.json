@@ -6,7 +6,8 @@
     {
       "run_at": "document_start",
       "matches": ["https://www.youtube.com/*"],
-      "css": ["styles.css"]
+      "css": ["styles.css"],
+      "all_frames": true
     }
   ],
   "manifest_version": 2

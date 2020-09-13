@@ -37,3 +37,13 @@ ytd-comments {
 .ytp-videowall-still, .ytp-endscreen-previous, .ytp-endscreen-next {
   display: none !important;
 }
+
+/** LIVE CHAT **/
+ytd-live-chat-frame {
+  visibility: hidden !important;
+}
+
+/** HOMEPAGE CHIPS **/
+ytd-feed-filter-chip-bar-renderer {
+  visibility: hidden !important;
+}

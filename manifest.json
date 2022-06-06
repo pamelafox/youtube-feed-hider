@@ -1,6 +1,6 @@
 {
   "name": "Youtube UnHooked",
-  "version": "0.9.5",
+  "version": "0.9.7",
   "description": "Hides parts of Youtube that are unneeded/addictive: recommendations, related videos, comments.",
    "content_scripts": [
     {

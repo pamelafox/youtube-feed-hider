@@ -33,6 +33,11 @@ ytd-comments {
   visibility: hidden !important;
 }
 
+/** Small comment preview box */
+ytd-comments-entry-point-header-renderer {
+  visibility: hidden !important;
+}
+
 /** RELATED VIDEOS (END OF VIDEO SCREEN) **/
 .ytp-videowall-still, .ytp-endscreen-previous, .ytp-endscreen-next {
   display: none !important;
